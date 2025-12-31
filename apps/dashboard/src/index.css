@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Custom scrollbar for dark mode feel */
+  ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+  }
+  ::-webkit-scrollbar-track {
+      background: #101c22;
+  }
+  ::-webkit-scrollbar-thumb {
+      background: #283339;
+      border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+      background: #3b4a52;
+  }
+  
+  body {
+    @apply bg-background-light dark:bg-background-dark text-[#111618] dark:text-white font-display overflow-hidden;
+  }
+}
