@@ -20,4 +20,3 @@ This project focuses on implementing precise and responsive UI/UX. It's currentl
         
     Assets
         Icons: Material Symbols / Lucide React
-        Logo: By Nano Banana
