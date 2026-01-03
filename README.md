@@ -11,7 +11,7 @@ Aquasee-Dashboard is a web-based smart pond monitoring and automation control da
 
 | Dashboard View | Mobile View |
 | :---: | :---: |
-| <img src="<img width="1365" height="646" alt="Screenshot 2026-01-03 224447" src="https://github.com/user-attachments/assets/04b73224-b0bd-4f54-9e50-ce91087e413a" />" alt="Dashboard" height="500" /> | <img src="https://github.com/user-attachments/assets/2fe57e4f-a90f-437d-988c-0d43e35b32c3" alt="Mobile" height="500" /> |
+| <img src="https://github.com/user-attachments/assets/04b73224-b0bd-4f54-9e50-ce91087e413a" alt="Dashboard" height="500" /> | <img src="https://github.com/user-attachments/assets/2fe57e4f-a90f-437d-988c-0d43e35b32c3" alt="Mobile" height="500" /> |
 
 ## How to Start
 
