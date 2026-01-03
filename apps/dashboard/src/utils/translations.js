@@ -14,7 +14,7 @@ export const translations = {
             hello: 'Hello',
             overview: 'Here is your ecosystem overview for today',
             refresh: 'Refresh Data',
-            add: 'Add Pond',
+            add: 'Add Asset',
         },
         dashboard: {
             assetStatus: 'Asset Status',
@@ -138,7 +138,7 @@ export const translations = {
             hello: 'Halo',
             overview: 'Berikut ringkasan ekosistem Anda hari ini',
             refresh: 'Segarkan Data',
-            add: 'Tambah Kolam',
+            add: 'Tambah Aset',
         },
         dashboard: {
             assetStatus: 'Status Aset',

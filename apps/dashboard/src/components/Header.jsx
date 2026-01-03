@@ -1,13 +1,21 @@
 import { useLanguage } from '../context/LanguageContext';
+import { useState, useEffect } from 'react';
 
 export default function Header() {
     const { t } = useLanguage();
+    const [currentDate, setCurrentDate] = useState('');
+
+    useEffect(() => {
+        const date = new Date();
+        const options = { month: 'long', day: '2-digit' };
+        setCurrentDate(date.toLocaleDateString('en-US', options));
+    }, []);
 
     return (
         <header className="flex flex-col md:flex-row md:items-end justify-between gap-4">
             <div className="flex flex-col gap-2">
                 <h2 className="text-[#111618] dark:text-white text-3xl font-black leading-tight tracking-tight">{t.header.hello}, Danu</h2>
-                <p className="text-[#637588] dark:text-[#9cafba] text-base font-normal">{t.header.overview}, <span className="font-medium text-primary">October 24</span>.</p>
+                <p className="text-[#637588] dark:text-[#9cafba] text-base font-normal">{t.header.overview}, <span className="font-medium text-primary">{currentDate}</span>.</p>
             </div>
             <div className="flex gap-3">
                 <button className="flex items-center justify-center gap-2 h-10 px-4 rounded-lg bg-surface-dark border border-[#283339] text-white text-sm font-semibold hover:bg-[#283339] transition-colors">
@@ -22,3 +30,4 @@ export default function Header() {
         </header>
     );
 }
+
